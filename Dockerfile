@@ -1,7 +1,6 @@
-FROM ubuntu:xenial
+FROM ubuntu:trusty
 
-RUN apt-get update -q && \
-    apt-get install -qy software-properties-common && \
+RUN apt-get install -qy software-properties-common && \
     add-apt-repository ppa:deluge-team/ppa && \
     apt-get update -q && \
     apt-get install -qy deluged deluge-web
