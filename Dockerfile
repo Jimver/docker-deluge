@@ -1,4 +1,4 @@
-FROM ubuntu:trusty
+FROM ubuntu:xenial
 
 RUN apt-get install -qy software-properties-common && \
     add-apt-repository ppa:deluge-team/ppa && \
