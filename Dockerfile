@@ -4,7 +4,7 @@ RUN apt-get update -q && \
     apt-get install -qy software-properties-common && \
     add-apt-repository ppa:deluge-team/ppa && \
     apt-get update -q && \
-    apt-get install -qy deluged deluge-web
+    apt-get install -qy deluged deluge-web openvpn
 
 ADD start.sh /start.sh
 
