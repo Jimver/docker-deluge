@@ -3,6 +3,7 @@
 ## Description
 
 A Dockerfile for [Deluge](http://deluge-torrent.org/).
+And openvpn connection
 
 The default password is `deluge`.
 
@@ -10,7 +11,7 @@ The default password is `deluge`.
 
 ### `/data`
 
-Configuration files for Deluge.
+Configuration files for Deluge and openvpn.
 
 ## Ports
 
